@@ -1,8 +1,14 @@
+import Navbar from './components/Navbar';
+import Social from './components/Social';
+import Hero from './components/Hero';
+
 function App() {
   return (
-    <h1>
-      Hello world!
-    </h1>
+    <>
+      <Navbar />
+      <Social />
+      <Hero />
+    </>
   );
 }
 
