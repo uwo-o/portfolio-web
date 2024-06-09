@@ -13,9 +13,20 @@
 }
 
 body {
+    scroll-behavior: smooth;
     overflow-x: hidden;
     background-color: var(--dark-gray);
     color: var(--light-gray);
+}
+
+nav {
+    position: fixed;
+    transition: top 0.3s;
+    top: 0;
+}
+
+nav.hide {
+    top: -5%;
 }
 
 nav li {
@@ -41,6 +52,11 @@ nav li:hover {
     left: 0;
     transform: translateY(50%);
     font-size: 2.0rem;
+    transition: left 0.3s;
+}
+
+.social.hide {
+    left: -5%;
 }
 
 .social a {

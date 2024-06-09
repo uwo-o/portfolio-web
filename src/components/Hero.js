@@ -7,6 +7,10 @@ function Hero() {
 
     const element = useRef(null);
 
+    const handleButtonClick = () => {
+        window.open("https://www.linkedin.com/in/uwo-o", "_blank");
+    }
+
     useEffect(() => {
         const typed = new Typed(element.current, {
             strings: ["Computer Eng. Student.", "M.L Developer.", "Software Developer.", "Web Developer."],
@@ -29,7 +33,7 @@ function Hero() {
                 <h2>And I'm a <span ref={element}></span></h2>
             </div>
             <div className="flex justify-end">
-                <Button>Hire me</Button>
+                <Button onClick={handleButtonClick}>Hire me</Button>
             </div>
         </div>
     );
