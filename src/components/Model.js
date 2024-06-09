@@ -57,9 +57,8 @@ function Model() {
 
     return(
         <>
-            <color attach="background" args={['#191919']}/>
             <mesh rotation={[-Math.PI/4, 0, Math.PI/3]} ref={plane}>
-                <planeGeometry args={[5, 5, 16, 16]}/>
+                <planeGeometry args={[4.5, 4.5, 16, 16]}/>
                 <shaderMaterial
                     vertexShader={vertex}
                     fragmentShader={fragment}
