@@ -7,15 +7,6 @@ function Hero() {
 
     const element = useRef(null);
 
-    const onButtonClick = () => {
-        const pdfUrl = "CV-Hugo-Campos.pdf";
-        const link = document.createElement("a");
-        link.href = pdfUrl;
-        link.download = "CV-Hugo-Campos.pdf"; // specify the filename
-        document.body.appendChild(link);
-        link.click();
-    };
-
     useEffect(() => {
         const typed = new Typed(element.current, {
             strings: ["Computer Eng. Student.", "M.L Developer.", "Software Developer.", "Web Developer."],
@@ -38,7 +29,7 @@ function Hero() {
                 <h2>And I'm a <span ref={element}></span></h2>
             </div>
             <div className="flex justify-end">
-                <Button onClick={onButtonClick}>Download CV</Button>
+                <Button>Hire me</Button>
             </div>
         </div>
     );

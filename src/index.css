@@ -13,12 +13,14 @@
 }
 
 body {
+    overflow-x: hidden;
     background-color: var(--dark-gray);
     color: var(--light-gray);
 }
 
 nav li {
-    border-bottom: 1px solid var(--gray);
+    background-color: var(--dark-gray);
+    border-bottom: 2px solid var(--light-gray);
 }
 
 nav li:hover {
@@ -73,6 +75,14 @@ nav li:hover {
 .default-btn:hover {
     background-color: var(--light-gray);
     color: var(--dark-gray);
+}
+
+.me-image {
+    border-right: 10px solid var(--light-gray);
+}
+
+.abt-tag {
+    border-left: 10px solid var(--light-gray);
 }
 
 @media screen and (max-width: 768px){
