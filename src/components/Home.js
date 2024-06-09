@@ -5,7 +5,7 @@ function Home () {
     return (
         <div id="home" className='h-screen w-screen flex items-center justify-center'>
             <Hero/>
-            <div className='w-2/5'/>
+            <div className='xl:w-2/5'/>
             <Animation className='animation'/>
         </div>
     );

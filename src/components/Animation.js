@@ -4,7 +4,7 @@ import Model from './Model';
 function Animation() {
 
     return (
-        <div className='w-3/5 h-screen overflow-hidden absolute right-0'>
+        <div className='hidden h-screen overflow-hidden xl:block w-3/5 absolute right-0'>
             <Canvas>
                 <Model/>
             </Canvas>

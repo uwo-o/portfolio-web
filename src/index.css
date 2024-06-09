@@ -32,6 +32,8 @@ nav li:hover {
 }
 
 .social {
+    display: flex;
+    flex-direction: column;
     position: fixed;
     bottom: 50%;
     left: 0;
@@ -71,4 +73,57 @@ nav li:hover {
 .default-btn:hover {
     background-color: var(--light-gray);
     color: var(--dark-gray);
+}
+
+@media screen and (max-width: 768px){
+    .social {
+        flex-direction: row;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .social a {
+        border-right: none;
+        border-top: 1px solid var(--light-gray);
+    }
+
+    nav {
+        width: 100vw;
+    }
+
+    nav ul{
+        width: 100%;
+    }
+
+    nav li {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 512px){
+
+    .p-name {
+        display: none;
+    }
+
+    .hero h2 {
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 425px){
+    .hero h1 {
+        font-size: 30px;
+    }
+    
 }

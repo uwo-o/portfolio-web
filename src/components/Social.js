@@ -3,7 +3,7 @@ import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 
 function Social() {
     return (
-        <div className="social inline-flex flex-col">
+        <div className="social">
             <a className="p-2 px-4" href="https://www.linkedin.com/in/uwo-o" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} />
             </a>
