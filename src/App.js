@@ -1,13 +1,13 @@
 import Navbar from './components/Navbar';
 import Social from './components/Social';
-import Hero from './components/Hero';
+import Home from './components/Home';
 
 function App() {
   return (
     <>
       <Navbar />
       <Social />
-      <Hero />
+      <Home />
     </>
   );
 }
