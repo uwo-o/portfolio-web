@@ -8,16 +8,17 @@ function Navbar() {
     useEffect(() => {
 
         const handeActive = (e) => {
-            if (window.scrollY > 20) {
-
-                if (e.clientY < 100) {
-                    setIsHide(false);
-                } else {
-                    setIsHide(true);
+            if (window.innerWidth > 768) {
+                if (window.scrollY > 20) {
+                    if (e.clientY < 100) {
+                        setIsHide(false);
+                    } else {
+                        setIsHide(true);
+                    }
                 }
-            }
-            else {
-                setIsHide(false);
+                else {
+                    setIsHide(false);
+                }
             }
         }
 
