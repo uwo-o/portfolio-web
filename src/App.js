@@ -1,6 +1,18 @@
+import Navbar from './components/Navbar';
+import Social from './components/Social';
+import Home from './components/Home';
+import About from './components/About';
+import Career from './components/Career';
+
 function App() {
   return (
-    <h1>Hello world uwu</h1>
+    <>
+      <Navbar />
+      <Social />
+      <Home />
+      <About />
+      <Career />
+    </>
   );
 }
 
