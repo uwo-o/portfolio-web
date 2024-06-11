@@ -50,7 +50,7 @@ function Career () {
 
             {showProjects &&
                 <div id="projects" className='flex flex-col mt-10 animate-fade-right'>
-                    <CareerCard year='2024' title='Portfolio web' subtitle='React & Tailwind' description='Portfolio web made using React and Tailwind' linkRepo='https://github.com/uwo-o/portfolio-web'/>
+                    <CareerCard year='2024' title='Portfolio web' subtitle='React, React-Three-Fiber & Tailwind' description='Portfolio web made using React and Tailwind, and React-Three-Fiber for the home animation' linkRepo='https://github.com/uwo-o/portfolio-web'/>
                     <CareerCard year='2023' title='Landing page' subtitle='Vanilla HTML, CSS, JS' description='Landing page for a store' linkRepo='https://github.com/uwo-o/Project-Cale'/>
                 </div>
             }
