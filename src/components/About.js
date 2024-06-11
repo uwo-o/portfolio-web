@@ -24,15 +24,15 @@ function About() {
                 <div className="w-3/4 2xl:2/3">
                     <h1 className="text-5xl my-5">About me.</h1>
                     <p className="text-lg 2xl:text-xl text-justify">
-                    I'm a person motivated to learn, I always keep myself on trial and studying to get better my knowledges in topics and technologies of interest. I have the ability to the communication and team working, also I have knowledge and experience in programming languages, getting easy the learning process of a new programming language.
+                    I'm motivated to learn, I always keep myself on trial and studying to improve my knowledge of topics and technologies of interest. I can communicate and team working, and also I have knowledge and experience in programming languages, making the learning process of a new programming language easy.
                     </p>
                     <br></br>
                     <p className="text-lg 2xl:text-xl text-justify">
-                    Talking about me in a more personal way, I'm a person that loves the challenges and always tries to give the best of himself, I'm lacto-vegetarian. I like worry for the wellness of the persons around, also I like to teach, and be able to help who wanteds it.
+                    Talking about me in a more personal way, I'm a person who loves challenges and always tries to give the best of himself, I'm lacto-vegetarian. I like to worry about the wellness of the people around me, also I like to teach and be able to help those who want it.
                     </p>
                     <br></br>
                     <p className="text-lg 2xl:text-xl text-justify">
-                    My dream is in a future can contribute with my sand's grain to the wellness and future of the humanity. My personal likes are varied, but among their are: to program, the UI/UX design, to draw, to learn, the astronomy, the universe, science, physics, to travel, to listen music, socialize and to teach.
+                    My dream is in the future can contribute with my sand's grain to the wellness and future of humanity. My likes are varied, but among them are: programming, UI/UX design, drawing, learning, astronomy, the universe, science, physics, traveling, listening to music, socializing, and teaching.
                     </p>
                     <div className="my-5 text-xl">
                         <Button onClick={onButtonClick}>Download CV</Button>
