@@ -94,6 +94,51 @@ nav li:hover {
     color: var(--dark-gray);
 }
 
+.button-career {
+    background-color: var(--dark-gray);
+    color: var(--light-gray);
+    border: 1px solid var(--light-gray);
+}
+
+.button-career.active {
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+}
+
+.career-h2 {
+    color: var(--gray);
+}
+
+.career-h1{
+    color: var(--light-gray);
+}
+
+hr {
+    background-color: var(--light-gray);
+}
+
+.career-card {
+    border-left: 5px solid var(--light-gray);
+}
+
+.career-card h1 {
+    color: var(--light-gray);
+    font-weight: bold;
+}
+
+.career-card h1 span {
+    color: var(--light-gray);
+    font-weight: lighter;
+}
+
+.career-card h2 {
+    counter-reset: var(--light-gray);
+}
+
+.career-card p {
+    color: var(--gray);
+}
+
 .me-image {
     border-right: 10px solid var(--light-gray);
 }
