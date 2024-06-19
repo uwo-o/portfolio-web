@@ -3,7 +3,7 @@ import Button from './Button';
 function About() {
 
     const years_of_experience = "2+"
-    const completed_projects = "02"
+    const completed_projects = "03"
     const companies_worked = "01"
 
     const onButtonClick = () => {

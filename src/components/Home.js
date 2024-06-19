@@ -7,6 +7,7 @@ function Home () {
             <Hero/>
             <div className='xl:w-2/5'/>
             <Animation className='animation'/>
+            <a className='scroll-down absolute right-2 sm:right-10 bottom-5 text-sm xl:text-xl' href='#about'><div>▼ Scroll down</div></a>
         </div>
     );
 }

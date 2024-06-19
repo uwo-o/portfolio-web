@@ -12,6 +12,28 @@
     scroll-behavior: smooth;
 }
 
+/* width */
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: var(--dark-gray);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: var(--gray);
+border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: var(--light-gray);
+}
+
 body {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -37,6 +59,11 @@ nav li {
 nav li:hover {
     background-color: var(--light-gray);
     color: var(--dark-gray);
+}
+
+.scroll-down:hover div {
+    transform: translateY(10px);
+    transition: transform 0.3s;
 }
 
 .p-name {
@@ -137,6 +164,53 @@ hr {
 
 .career-card p {
     color: var(--gray);
+}
+
+.career-card-activable {
+    border-left: 5px solid var(--light-gray);
+    cursor: pointer;
+}
+
+.career-card-activable:hover {
+    background-color: var(--light-gray);
+    color: var(--dark-gray)
+}
+
+.career-card-activable h1 {
+    color: var(--light-gray);
+    font-weight: bold;
+}
+
+.career-card-activable:hover h1 {
+    color: var(--dark-gray);
+    font-weight: bold;
+}
+
+
+.career-card-activable h1 span {
+    color: var(--light-gray);
+    font-weight: lighter;
+}
+
+.career-card-activable:hover h1 span {
+    color: var(--dark-gray);
+    font-weight: lighter;
+}
+
+.career-card-activable h2 {
+    counter-reset: var(--light-gray);
+}
+
+.career-card-activable:hover h2 {
+    counter-reset: var(--dark-gray);
+}
+
+.career-card-activable p {
+    color: var(--gray);
+}
+
+.career-card-activable:hover p {
+    color: var(--dark-gray);
 }
 
 .me-image {

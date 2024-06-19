@@ -50,6 +50,7 @@ function Career () {
 
             {showProjects &&
                 <div id="projects" className='flex flex-col mt-10 animate-fade-right'>
+                    <CareerCard year='2024' title='Physics Simulator' subtitle='C++ & SFML' description='Basic physics simulator for learning new technologies, simulating different physics phenomena' linkRepo='https://github.com/uwo-o/physics-simulator-cpp'/>
                     <CareerCard year='2024' title='Portfolio web' subtitle='React, React-Three-Fiber & Tailwind' description='Portfolio web made using React and Tailwind, and React-Three-Fiber for the home animation' linkRepo='https://github.com/uwo-o/portfolio-web'/>
                     <CareerCard year='2023' title='Landing page' subtitle='Vanilla HTML, CSS, JS' description='Landing page for a store' linkRepo='https://github.com/uwo-o/Project-Cale'/>
                 </div>
@@ -68,7 +69,7 @@ function Career () {
 
             {showEducation &&
                 <div id="education" className='flex flex-col mt-10 animate-fade-right'>
-                    <CareerCard year='2019 - Today' title='Computer Engineering' subtitle='Federico Santa Maria Technical University' description='I am studyin computer enginering with machine learning and computer science aspirations' linkRepo=''/>
+                    <CareerCard year='2019 - Today' title='Computer Science' subtitle='Federico Santa Maria Technical University' description='I am studying computer science with machine learning and computer science aspirations' linkRepo=''/>
                     <CareerCard year='2015 - 2018' title='Middle-level technical degree in electronic and home electricity' subtitle='Santa Cruz’s Polytechnic Institute - Chile' description='In this second stage of my education, I studied the specialty of home electronics and electricity. I learned the basic logic behind circuits, components and their uses, repair processes, teamwork, home electrical installations, Arduino board programming, and industrial machinery maintenance. These knowledges grant me the quality of a Mid-Level Technician.' linkRepo=''/>
                 </div>
             }
