@@ -18,9 +18,9 @@ function About() {
     return(
         <div id="about" className="container mx-auto flex items-center flex-col xl:flex-row">
             <div className='1/2 lg:1/3 2xl:w-1/2'>
-                <img src="./me.png" alt="Hugo Campos Castro" className="me-image items-end hidden xl:block scale-90 xl:scale-100"></img>
+                <img src="./me.png" alt="Hugo Campos Castro" className="me-image items-end hidden xl:block scale-90 xl:scale-90"></img>
             </div>
-            <div className="2xl:w-1/2 m-3 xl:m-5 2xl:ml-10 inline-flex flex-col xl:flex-row items-center">
+            <div className="2xl:w-1/2 m-3 xl:m-5 2xl:ml-0 inline-flex flex-col xl:flex-row items-center">
                 <div className="w-3/4 2xl:2/3">
                     <h1 className="text-5xl my-5">About me.</h1>
                     <p className="text-lg 2xl:text-xl text-justify">
