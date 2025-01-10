@@ -26,7 +26,7 @@ function Hero() {
     }, []);
 
     return (
-        <div className="hero w-4/5 xl:w-2/5 pl-8">
+        <div className="hero w-4/5 2xl:w-2/5 pl-8">
             <div className="">
                 <h2>Hi! I'm</h2>
                 <h1>Hugo Campos</h1>
