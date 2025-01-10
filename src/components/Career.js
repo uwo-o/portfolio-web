@@ -38,7 +38,7 @@ function Career () {
     }
 
     return(
-        <div id="career" className="w-4/5 lg:w-1/2 container mx-auto flex items-center flex-col my-20 ">
+        <div id="career" className="w-4/5 lg:w-1/2 container mx-auto flex items-center flex-col my-20 h-screen">
             <h2 className="career-h2 text-xl 2xl:text-3xl">Are you interested in me?</h2>
             <h1 className="career-h1 text-2xl lg:text-4xl 2xl:text-6xl">Here is my career resume</h1>
             <hr className='w-full mt-10'/>
@@ -52,7 +52,6 @@ function Career () {
                 <div id="projects" className='flex flex-col mt-10 animate-fade-right'>
                     <CareerCard year='2024' title='Physics Simulator' subtitle='C++ & SFML' description='Basic physics simulator for learning new technologies, simulating different physics phenomena' linkRepo='https://github.com/uwo-o/physics-simulator-cpp'/>
                     <CareerCard year='2024' title='Portfolio web' subtitle='React, React-Three-Fiber & Tailwind' description='Portfolio web made using React and Tailwind, and React-Three-Fiber for the home animation' linkRepo='https://github.com/uwo-o/portfolio-web'/>
-                    <CareerCard year='2023' title='Landing page' subtitle='Vanilla HTML, CSS, JS' description='Landing page for a store' linkRepo='https://github.com/uwo-o/Project-Cale'/>
                 </div>
             }
 
