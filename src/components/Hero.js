@@ -13,7 +13,7 @@ function Hero() {
 
     useEffect(() => {
         const typed = new Typed(element.current, {
-            strings: ["Computer Science Student.", "M.L Developer.", "Software Developer.", "Web Developer."],
+            strings: ["Computer Science Student.", "Software Developer.", "Web Developer."],
             typeSpeed: 30,
             backSpeed: 30,
             backDelay: 1000,

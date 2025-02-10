@@ -57,7 +57,7 @@ function Career () {
 
             {showExperience &&
                 <div id="experience" className='flex flex-col mt-10 animate-fade-right'>
-                    <CareerCard year='Mar. 2024 - Today' title='Developer assistant - AC3E' subtitle='ASTRI Project' description='After my internship I was hired as developer assistant for my excellent work in the project.' linkRepo=''/>
+                    <CareerCard year='Mar. 2024 - Today' title='Developer assistant - AC3E' subtitle='ASTRI Project' description='After my internship I was hired as developer assistant for my work, I am in charge of programming and testing sequencing systems, execution of observations and data acquisition, among others.' linkRepo=''/>
                     <CareerCard year='Jan. 2024 - Feb. 2024' title='Internship - AC3E' subtitle='ASTRI Project' description='I was responsible to help to develop and test ACS Components for the project.' linkRepo=''/>
                     <CareerCard year='Ago. 2023 - Jul. 2024' title='Laboratory assistant - USM' subtitle='Computing laboratory' description='I was responsible to administrate systems ands services offered by computing laboratory.' linkRepo=''/>
                     <CareerCard year='Ago. 2023 - Nov. 2023' title='Software developer - Octa AeroSpace' subtitle='Octa-Sat Project' description='I was responsible to develop software solutions for a can sat launched on an helium balloon.' linkRepo=''/>
@@ -68,7 +68,7 @@ function Career () {
 
             {showEducation &&
                 <div id="education" className='flex flex-col mt-10 animate-fade-right'>
-                    <CareerCard year='2019 - Today' title='Computer Science' subtitle='Federico Santa Maria Technical University' description='I am studying computer science with machine learning and computer science aspirations' linkRepo=''/>
+                    <CareerCard year='2019 - Today' title='Computer Science' subtitle='Federico Santa Maria Technical University' description='I am studying computer science with machine learning aspirations applied to physics, also studying physics subjects to have a background.' linkRepo=''/>
                     <CareerCard year='2015 - 2018' title='Middle-level technical degree in electronic and home electricity' subtitle='Santa Cruz’s Polytechnic Institute - Chile' description='In this second stage of my education, I studied the specialty of home electronics and electricity. I learned the basic logic behind circuits, components and their uses, repair processes, teamwork, home electrical installations, Arduino board programming, and industrial machinery maintenance. These knowledges grant me the quality of a Mid-Level Technician.' linkRepo=''/>
                 </div>
             }
