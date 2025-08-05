@@ -52,6 +52,8 @@ function Career () {
                 <div id="projects" className='flex flex-col mt-10 animate-fade-right'>
                     <CareerCard year='2024' title='Physics Simulator' subtitle='C++ & SFML' description='Basic physics simulator for learning new technologies, simulating different physics phenomena' linkRepo='https://github.com/uwo-o/physics-simulator-cpp'/>
                     <CareerCard year='2024' title='Portfolio web' subtitle='React, React-Three-Fiber & Tailwind' description='Portfolio web made using React and Tailwind, and React-Three-Fiber for the home animation' linkRepo='https://github.com/uwo-o/portfolio-web'/>
+                    <CareerCard year='2025' title='Project bot' subtitle='ESP32 programing and hardware' description='Development of a bot using ESP32 technology using AI for face recognition and intelligent processing' linkRepo='https://github.com/uwo-o/project-bot'/>
+                    <CareerCard year='2025' title='Page of content' subtitle='Content explaining computing concepts (Spanish)' description='Instagram page with content explaining computing concepts in Spanish as reels' linkRepo='https://www.instagram.com/uwo.informatico/'/>
                 </div>
             }
 
