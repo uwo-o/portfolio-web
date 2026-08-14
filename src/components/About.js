@@ -2,8 +2,8 @@ import Button from './Button';
 
 function About() {
 
-    const years_of_experience = "2+"
-    const completed_projects = "02"
+    const years_of_experience = "4"
+    const completed_projects = "04"
     const companies_worked = "01"
 
     const onButtonClick = () => {
@@ -32,7 +32,7 @@ function About() {
                     </p>
                     <br></br>
                     <p className="text-lg 2xl:text-xl text-justify">
-                    My dream is in the future can contribute with my sand's grain to the wellness and future of humanity. My likes are varied, but among them are: programming, UI/UX design, drawing, learning, astronomy, the universe, science, physics, traveling, listening to music, socializing, and teaching.
+                    My dream is in the future can contribute with my sand's grain to the wellness and future of humanity. My likes are varied, but among them are: programming, drawing, learning, astronomy, the universe, science, physics, traveling, listening to music, socializing, and teaching.
                     </p>
                     <div className="my-5 text-xl">
                         <Button onClick={onButtonClick}>Download CV</Button>
