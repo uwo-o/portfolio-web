@@ -56,7 +56,7 @@ nav li {
     border-bottom: 2px solid var(--light-gray);
 }
 
-nav li:hover {
+nav li:hover :not(.p-name) {
     background-color: var(--light-gray);
     color: var(--dark-gray);
 }
@@ -67,8 +67,7 @@ nav li:hover {
 }
 
 .p-name {
-    color: var(--dark-gray);
-    background-color: var(--light-gray);
+    color: var(--light-gray);
 }
 
 .social {
@@ -215,6 +214,11 @@ hr {
 
 .me-image {
     border-right: 10px solid var(--light-gray);
+    filter: grayscale(100%);
+    height: 100vh; 
+    width: 100%; 
+    object-fit: cover;
+    object-position: center;
 }
 
 .abt-tag {

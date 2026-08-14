@@ -50,20 +50,24 @@ function Career () {
 
             {showProjects &&
                 <div id="projects" className='flex flex-col mt-10 animate-fade-right'>
-                    <CareerCard year='2024' title='Physics Simulator' subtitle='C++ & SFML' description='Basic physics simulator for learning new technologies, simulating different physics phenomena' linkRepo='https://github.com/uwo-o/physics-simulator-cpp'/>
-                    <CareerCard year='2024' title='Portfolio web' subtitle='React, React-Three-Fiber & Tailwind' description='Portfolio web made using React and Tailwind, and React-Three-Fiber for the home animation' linkRepo='https://github.com/uwo-o/portfolio-web'/>
-                    <CareerCard year='2025' title='Project bot' subtitle='ESP32 programing and hardware' description='Development of a bot using ESP32 technology using AI for face recognition and intelligent processing' linkRepo='https://github.com/uwo-o/project-bot'/>
-                    <CareerCard year='2025' title='Page of content' subtitle='Content explaining computing concepts (Spanish)' description='Instagram page with content explaining computing concepts in Spanish as reels' linkRepo='https://www.instagram.com/uwo.informatico/'/>
+                    <CareerCard year='2026' title='PISR-NSGA-II' subtitle='Physics-Informed Symbolic Regression Non-Dominated Sorting Genetic Algorithm - II' description='A physics informed multi-objective optimization algorithm for differential equations symbolic regression developed in C++ for my Undergraduate Thesis.' linkRepo='https://github.com/uwo-o/PISR-NSGA-II'/>
+                    <CareerCard year='2024' title='Physics Simulator' subtitle='C++ & SFML' description='Basic physics simulator for learning new technologies, simulating different physics phenomena.' linkRepo='https://github.com/uwo-o/physics-simulator-cpp'/>
+                    <CareerCard year='2024' title='Portfolio web' subtitle='React, React-Three-Fiber & Tailwind' description='Portfolio web made using React and Tailwind, and React-Three-Fiber for the home animation.' linkRepo='https://github.com/uwo-o/portfolio-web'/>
+                    <CareerCard year='2025' title='Project bot' subtitle='ESP32 programing and hardware' description='Development of a bot using ESP32 technology using AI for face recognition and intelligent processing.' linkRepo='https://github.com/uwo-o/project-bot'/>
+                    <CareerCard year='2025' title='Page of content' subtitle='Content explaining computing concepts (Spanish)' description='Instagram page with content explaining computing concepts in Spanish as reels.' linkRepo='https://www.instagram.com/uwo.informatico/'/>
                 </div>
             }
 
             {showExperience &&
                 <div id="experience" className='flex flex-col mt-10 animate-fade-right'>
-                    <CareerCard year='Mar. 2024 - Today' title='Developer assistant - AC3E' subtitle='ASTRI Project' description='After my internship I was hired as developer assistant for my work, I am in charge of programming and testing sequencing systems, execution of observations and data acquisition, among others.' linkRepo=''/>
+                    <CareerCard year='Ago. 2025 - Today' title='Researcher assistant - USM' subtitle='Neuroscience and Neurothechnology' description='' linkRepo=''/>
+                    <CareerCard year='Ago. 2026 - Today' title='Laboratiory assistant - USM' subtitle='Laboratory of modeling and complex simulations' description='I am responsible to help the researchers in the laboratory, guiding student through the programming and simulation learning.' linkRepo=''/>
+                    <CareerCard year='Ago. 2026 - Today' title='Teacher assistant - USM' subtitle='Initial Project course' description='I was responsible to guide and teach new year stundents in their first steps into Engineering.' linkRepo=''/>
+                    <CareerCard year='Mar. 2024 - Mar. 2026' title='Developer assistant - AC3E' subtitle='ASTRI Project' description='After my internship I was hired as developer assistant for my work, I am in charge of programming and testing sequencing systems, execution of observations and data acquisition, among others.' linkRepo=''/>
                     <CareerCard year='Jan. 2024 - Feb. 2024' title='Internship - AC3E' subtitle='ASTRI Project' description='I was responsible to help to develop and test ACS Components for the project.' linkRepo=''/>
                     <CareerCard year='Ago. 2023 - Jul. 2024' title='Laboratory assistant - USM' subtitle='Computing laboratory' description='I was responsible to administrate systems ands services offered by computing laboratory.' linkRepo=''/>
                     <CareerCard year='Ago. 2023 - Nov. 2023' title='Software developer - Octa AeroSpace' subtitle='Octa-Sat Project' description='I was responsible to develop software solutions for a can sat launched on an helium balloon.' linkRepo=''/>
-                    <CareerCard year='Mar. 2023 - Jul. 2023' title='Teacher assistant evaluator - USM' subtitle='Programming languages course' description='I was responsible to check and evaluate the students homework, each one based on different programming languages.' linkRepo=''/>
+                    <CareerCard year='Mar. 2025 - Jul. 2026' title='Teacher assistant evaluator - USM' subtitle='Programming languages course' description='I was responsible to check and evaluate the students homework, each one based on different programming languages.' linkRepo=''/>
                     <CareerCard year='Ago. 2022 - Dec. 2022' title='Teacher assistant - USM' subtitle='Programming languages course' description='I was responsible  to dictate an extra class, oriented  to explain and review contents viewed in class.' linkRepo=''/>
                 </div>
             }
